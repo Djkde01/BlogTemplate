@@ -56,33 +56,40 @@ nav{
     justify-content: flex-end;
     margin-right: 20px;
 }
-main{
+.home-main{
     height: 100%;
     background-image: url("https://images.pexels.com/photos/546819/pexels-photo-546819.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940");
     background-repeat: no-repeat;
     background-size: cover;
-    display: flex;
-    flex-direction: column;
-    justify-content: space-around;
-    align-items: center;
+    display: grid;
+    grid-template-columns: 1fr 4fr 1fr;
+    grid-template-rows: repeat(3,1fr);
 }
-.main-message-container{
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
+.home-main-message{
+    display: grid;
+    grid-column: 2;
+    grid-row: 2;
+    justify-items: center;
     align-items: center;
     background-color: rgba(0, 0, 0, 0.6);
     padding: 20px;
     font-family: 'Oswald', sans-serif;
 }
-.main-message-container h1{
+.home-main-message h1{
+    font-size: 30px;
+    letter-spacing: 5px;
+    text-align: center;
     color: white;
 }
-.main-message-container button{
+.home-main-message button{
     border: none;
     padding: 10px 30px;
     font-family: 'Oswald', sans-serif;
     background-color: #F51634;
     color: white;
-    font-size: 15px;
+    font-size: 20px;
+    letter-spacing: 5px;
+}
+.home-main-message button:hover{
+    background-color: #CF132C;
 }
