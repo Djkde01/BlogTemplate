@@ -37,6 +37,10 @@ header{
 }
 .icons span img{
     height: 30px;
+    opacity: 0.7;
+}
+.icons span img:hover{
+    opacity: 1;
 }
 nav{
     display: grid;
