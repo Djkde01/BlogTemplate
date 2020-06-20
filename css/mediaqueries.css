@@ -1,0 +1,14 @@
+@media (max-width: 900px){
+    .latest-blogpost-container{
+        grid-template-columns: 1fr;
+        grid-template-rows: 1fr 1fr;
+    }
+    .latest-blogpost-preview{
+        padding: 50px 0;
+        text-align: center;
+    }
+    .bloglist{
+        grid-template-columns: 1fr;
+        grid-template-rows: repeat(6, 1fr);
+    }
+}
