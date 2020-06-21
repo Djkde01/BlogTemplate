@@ -1,7 +1,7 @@
 body{
     margin: 0;
     padding: 0;
-    font-family: 'Oswald', sans-serif;
+    font-family: 'Oswald', system-ui;
 }
 a{
     text-decoration: none;
@@ -94,7 +94,7 @@ nav{
 .home-main-message button{
     border: none;
     padding: 10px 30px;
-    font-family: 'Oswald', sans-serif;
+    font-family: 'Oswald', system-ui;
     background-color: #F51634;
     color: white;
     font-size: 20px;
